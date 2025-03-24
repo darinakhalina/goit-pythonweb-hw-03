@@ -1,0 +1,6 @@
+.venv/
+venv/
+.idea/
+.gitignore
+readme.md
+storage/data.json
