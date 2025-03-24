@@ -85,7 +85,6 @@ def run(server_class=HTTPServer, handler_class=HttpHandler):
     server_address = ("", 3000)
     http = server_class(server_address, handler_class)
     try:
-        print("Server started! On http://localhost:3000")
         http.serve_forever()
     except KeyboardInterrupt:
         http.server_close()
